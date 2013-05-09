@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="43" height="40" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="Level" tilewidth="40" tileheight="40">
+  <image source="Lost_Garden_Terrain.png" width="800" height="800"/>
+ </tileset>
+ <tileset firstgid="401" name="Lost_Garden_Tileset" tilewidth="40" tileheight="40">
+  <image source="Lost_Garden_Tileset.png" width="1000" height="800"/>
+ </tileset>
+ <tileset firstgid="901" name="skills" tilewidth="40" tileheight="40">
+  <image source="skills.png" width="200" height="200"/>
+ </tileset>
+ <layer name="ground" width="43" height="40">
+  <properties>
+   <property name="blocked" value="false"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1+0NgjAQgGGMicvoDrCcnz80ugGKI4gzqAlOoM6gLuCRFHPBaq4F22tyJO8fg/KEVLgOu9H76KhSaK1pg87x0cjAWrbwaB1rrLsfVp/3dqKxcl0HU411xdQ6C8iKjxCtZeX/K0fGXLVnaK1KHd/LsybO1gN0hE7MrQV0ga7QzaO1IHaHHtDTwlp/Fsxb6tu7EWdipfzeP7O1Nl0DPRV1LRSG1kw5ly1abb9PtW4DscaqjLkVXwNfy+Y55tqaMLf2oQGqmrdM9zMurLG6nwn6zGY+rK8lSng2oFhxTWZZGyueDVxabcKzAdWaRp/vP9d7BKq12ifgXO8RqFYOiVWsYhWrWMUqVrGGZH0BdTyiGA==
+  </data>
+ </layer>
+ <layer name="tree" width="43" height="40">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztl8tO20AUhg8trEtpUYEtBVqksqUtF6lsyabctnhDb1tWQNstj2AVXgFaeAPavojzDsmui/6j5MgnJ+MZjx1wkPxJnybWTMyvP8MkJkrZhA1y04SHHu+CfRh51rThqce7IE+vhsdwgjodPoFPaTh7NczBeep0uABfUG+vnP82uYCXMHGsMXOy1xW4CmNKO+X8Rci7/2/gb9jKmOe+ZK/yfnzN+UOJyb7/bZllr4maM9fc1xv4VuQ77f4dEq9jyk8stPVq+5+9obRX3a25ln3FasyD76yTuXy9ShLq7TaxrgrDd9ZlnXeuOXPe627N60dwvMRYFFuvza7trppZ+LzE+G8knxpbr5yRM0vMvlyGr0uMkw/yqcnar7LXH5b5Ksjar7JXnXWY9qvMexv7lbnCnrwe8Y+u89X8btlUo6TsfmXynsmusyqi9PeL7XfMQzgKx7rXZ/A8YAzN6sLW66KYfwan4DScgT/hr4BxkFkj6u913bLuFVyCf+DfgJHR5+EgeJmR9R3cKHFfedaEKNGfv8m6SP3swr2SWYso0Z//GvX3anJ+hl9KZB0Eutf3cAtuwx1Kc36rKqBA93oAP8CP8BOlOb9XE68H3esRPIYn8CvZc/JzjW8MWeu6B6N71dnldxm/n59rfCMFrHXdg2moTDo7j4l4Pz/X+EYKWOu6BxPl7FU/ew0Drl6rsAitiqypqampqblP/AflMyJn
+  </data>
+ </layer>
+ <objectgroup name="player" width="43" height="40">
+  <object name="spawnPoint" x="408" y="810" width="18" height="18"/>
+ </objectgroup>
+ <layer name="modifiable" width="43" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAADgxwAa4AAB
+  </data>
+ </layer>
+</map>

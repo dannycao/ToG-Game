@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="53" height="50" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="item_sheet" tilewidth="40" tileheight="40">
+  <image source="items.png" width="520" height="400"/>
+ </tileset>
+ <tileset firstgid="131" name="Lost_Garden_Terrain" tilewidth="40" tileheight="40">
+  <image source="Lost_Garden_Terrain.png" width="800" height="800"/>
+ </tileset>
+ <tileset firstgid="531" name="Lost_Garden_Tileset" tilewidth="40" tileheight="40">
+  <image source="Lost_Garden_Tileset.png" width="1000" height="800"/>
+ </tileset>
+ <tileset firstgid="1031" name="snowWIP_12" tilewidth="40" tileheight="40">
+  <image source="snowWIP_12.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1175" name="SnowyTrees" tilewidth="40" tileheight="40">
+  <image source="SnowyTrees.png" width="228" height="228"/>
+ </tileset>
+ <tileset firstgid="1200" name="treetrunk2006bu8" tilewidth="40" tileheight="40">
+  <image source="treetrunk2006bu8.png" width="143" height="122"/>
+ </tileset>
+ <tileset firstgid="1209" name="skills" tilewidth="40" tileheight="40">
+  <image source="skills.png" width="200" height="200"/>
+ </tileset>
+ <layer name="ground" width="53" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2ttNw0AQBdBFSgmUkC++UwDwC9QA1AD0kCrog6cUV8ZGYeDqMmM7+xg/cKSrBIuAT2Z2YmXzsgo/t9OTeeSVTFcx1zE3MWsjQ59zV97IdBtzF3Mfsw16xu56J9NDzGPMU4tpO/I+/TDWk9V3U3B+tsyIY03cn0M58dbn99uc+DMeH7upj5lN3jOztInDJg9XbRP7PHrR0+Q1N5Y6LXVij9ecWEzpnl34va/p8TBJXfYWyZRNWJ85vOei5Tn89U3RpPXc1E1oQIvHnBhiPU3ZJK65zIg221xMnlnq9D9MPM92QX9fkuNjN+H5o0u7R+dYTVwTro12HTHmOmnvOR6vf22T92t/vgrhIuYyZgM5o6Sa0OJVow1ZxId7SzkmrJW3af39WD4Lxb2lXBPWy8O0N2Cd5DMo3FsqYeL+q7G2tL0Fecz9KM/JMUmtMKXrZu2doIGTa9KuIZpwSI069fksN9fUBPvaoUS9tH2Rrv4uZWqM/5177YrP96qTeNAkdWJnap14P5WP8d/ONYlLLGxDb2qdNAMaa5jYJmkKm7iXrV4saZJz4J5LnYOWxduEtpR1pPWZ5uD+8zAd8z0eba1Y68d67FWnrrmrzTOrt7R6WKldJ2sO91kjqfu/NU1an3SZuub0kCbt3LRjNb7X8wVC5GOi
+  </data>
+ </layer>
+ <layer name="cliff" width="53" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAA8AwpaAAB
+  </data>
+ </layer>
+ <layer name="water" width="53" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAA8AwpaAAB
+  </data>
+ </layer>
+ <layer name="tree" width="53" height="50">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztWclNxEAQHEv7IQUEIXCFwJUIQZAHZwacr+W+yQBygBz8p1uotK2RjT3jafdguaTSrkZet2ur3GqPnRsRiwPiofVFJMYZ8dwNS9sL8dXNtPWFsoca0Aa/phPnrojXE516c8Wvrj60wa8b0nJLvFPSxGBdTG3Ar3vS8kB8VNRUBw3vrPuFhndjL4zDHnFf4bOpnt8LU+KEeKrw2VQP0PDrifis8NlUD4BfKbFT6NICu4UumzBvpDsFquahJdKzTFzJTFfb2a1qHlonLRvEzcw0tZ3d6uahHLPXZXbLNXuhkFnNNXuh8LNqkb3UNWVWLbIna8rnjg/iZ4LzW2RP1uTnDmj5In53PLd1f8DsDC2xM7kTx1j1B/iC2RnXEzuTO3EMstx3j4AvmJ1xPbEzuRPHcJYt8udnqs01N0H2F4v8hWSqLeC91X5ESKbaAlos9lpQq00vCwG0WOw7o1bK3DH8vRX57H5EPE5Yq652qtyV3nfpD/RdEC8T1KoD+lNo3vG7Bepli2Km4t6Nc/F36Q/0vRHfU1x8DdCfQu9l/G6VrnvN24eX3pSCGntHfyH2Xt4iLdvFzC95LgbeOzC17yMfyFLsfwm/ZBbhOda07yMfyFLsOw74JbMIz7GmfR9VgfV0fccBbQx4Ltf6zh/r6TI/I2Oyz2DNKn9d52dkDJkrxZpV/rrOz8gYMse+Y03m77+CPUq1n5EL2KMU+xkjmiFng6EAvWpIqJrlhoIh+5UDfgDQ5RK2
+  </data>
+ </layer>
+ <layer name="building" width="53" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAA8AwpaAAB
+  </data>
+ </layer>
+ <layer name="rock" width="53" height="50">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzdWdFtxDAIvXSLqNulO6S7dI0uWFkNEscBBsPFJE/yRxLHGB5gbD8ePqzLf9uOdhc0nfajYWyHvlfFtrw2qiP0mwmPjffltUl6zvbTNeA/kp7YT2fqliWb8rdP5IzOJYs/Ke7Owk78Zl34mMHNMma1/MjFjJYnpDGuBE1HwOz8HgX1X3h3B1Cers5VA+XpLlwBormzInq582x4bMp9b+8+i8WW1aZSvUDfVYqtnn2ledJ/KvAEoGsqhVZD0Jq2Ek8NWDcMbZ4z84EGzt4YI/mjArTadSR/VINUu0p9GyrlBws03SrmBw+4eV9VFwxuT/tVWKdePSrFzHdBnWhMeOvSijxFY6IqTxF4eWr9LW0UkTUTZHt4gv6WNgqLPpIdQbbHpta5RriyrP+SHUGmx6ZWP49wJdXiGJK9vLp4/TyaTyVZ3njhgNcJK09ZcjmAj0XykeWMk46fZUcJNI68uR/3//l4/gbPGfkOw+PjI7kf+9wv0ak9R9cjDh67S3cBlv8kZPKD5Xnn562npPHfeXbr9SevbM5uUt2cUR9lzVEbm4tDzo5bQn2Ez8G86O3ne/t6ziYZe+bo/Z+2n+/FnFXPEdAzInhnvRvIjPMMnrgzV81nJL8auaMB2dl5T7qvkHjKul/akIwz76zeIYPmwLPP0bLPVSucbWbLHhnvD/eIxL8=
+  </data>
+ </layer>
+ <layer name="door" width="53" height="50">
+  <properties>
+   <property name="blocked" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKgDAMBMDQnq3/f5v4C/FcQZ9QCLUzEHJNTrsRAAAAAJDnKO8+S+4dI13fL/ePftpqRHtmr9mXAACr0RfnoC8CMILcn4PcZ0Udwo0LmA==
+  </data>
+ </layer>
+ <objectgroup name="player" width="53" height="50">
+  <object name="spawnPoint" x="209" y="90" width="22" height="21"/>
+ </objectgroup>
+ <layer name="modifiable" width="53" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwYEAAAAAw6D5U1/gCFUBAAAAAAAAAAAA8AwpaAAB
+  </data>
+ </layer>
+</map>
