@@ -13,5 +13,3 @@ To run the source code, follow the directions @ the Slick2d wiki:
 
 
 ============================
-
-Expect more levels this summer (2013).
